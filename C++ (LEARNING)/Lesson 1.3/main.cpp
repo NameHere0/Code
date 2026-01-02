@@ -7,7 +7,16 @@ int main()
     std::cout << 'H';     // print the literal character `H`
     std::cout << "Hello"; // print the literal text `Hello`
     std::cout << "What if i\n";
-    std::cout << "Does this count as text?";
+
+    int x = 15;
+    int a, b, c; // NOTE TO SELF: DONT DO THIS
+    int y;
+    double z;
+
+    // well this is nice, oh the formatter made it two line
+    /* it was originally
+    inty; double z;
+    i just wanted to test */
 
     return 0;
 }
