@@ -8,7 +8,16 @@
       "args": [
         "-std=c++17",
         "-ggdb",                 // debug info
-        "-pedantic-errors",      // strict standard checking
+        "-Wall",
+        "-Weffc++",
+        "-Wextra",
+        "-Wconversion",
+        "-Wsign-conversion",
+        "-Werror",
+        "-pedantic-errors",  
+        "-std=c++23",
+        "${file}",
+        "-o",
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
