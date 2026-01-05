@@ -1,7 +1,7 @@
 from random import choice
 
 len = int(input("Length of password: "))
-all_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&'()*+,-./:;<=>?@[]^_`{|}~"
+all_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&/=?@_"
 
 
 chars_list = list(all_chars)
