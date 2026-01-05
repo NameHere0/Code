@@ -6,7 +6,6 @@
       "type": "shell",
       "command": "g++",
       "args": [
-        "-std=c++17",
         "-ggdb",                 // debug info
         "-Wall",
         "-Weffc++",
@@ -16,11 +15,10 @@
         "-Werror",
         "-pedantic-errors",  
         "-std=c++23",
-        "${file}",
+        "${workspaceFolder}/*.cpp",
         "-o",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
       ],
       "problemMatcher": ["$gcc"],
       "group": {
