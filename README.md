@@ -19,7 +19,7 @@ git clone https://github.com/Gameing8921/Code.git
 >goto [this website](https://git-scm.com/install/windows "Git install website")  for **windows**
 
 
->run `brew install git` for **macos** (run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` to install brew if you havent
+>run `brew install git` for **macos** (run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` to install brew if you havent)
 
 >use `apt install git` for **debian** (or your distro's equivalent)
 
